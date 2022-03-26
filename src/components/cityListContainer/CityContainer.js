@@ -1,6 +1,6 @@
 import { CardGroup } from "reactstrap";
 import { citiesArray } from "../../constants";
-import City from "./City/City";
+import City from './City/City'
 import './CityContainer.css'
 
 const CityContainer = () => {
