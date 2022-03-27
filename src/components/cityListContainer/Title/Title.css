@@ -1,0 +1,18 @@
+.Titulo{
+    margin: 9vh auto;
+    width: 60%;
+    color: black;
+    background-color: #212121;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-shadow: 15px 15px 30px #19191948;
+    border-radius: 9px 30px 9px 30px;
+    background: lightgrey;
+    border-radius: 2% 65% 10% 90% / 81% 10% 87% 15%;
+    background: #12c2e9;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+     /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: -20px -20px 1000px #9d21a7;
+}

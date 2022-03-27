@@ -1,3 +1,6 @@
 .cities{
-    margin: 40px 40px;
+    width: 70%;
+    margin: 12vh auto;
+    padding-left: 10%;
+    padding-right: 10%;
 }

@@ -1,13 +1,12 @@
 import React from 'react'
-import {useQuery, gql} from '@apollo/client'
+import {useQuery} from '@apollo/client'
 import { Card, CardBody, CardImg, CardSubtitle, CardText, CardTitle } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { getCityById } from '../../../service/db';
 import './CityDetail.css'
+import HomeButton from '../../Buttons/HomeButton/HomeButton';
 
 const CityDetail = ({cityId}) => {
-
-function CityById() {
 
   const { loading, error, data} = useQuery(getCityById(), {variables: {cityId}});
 
@@ -39,14 +38,10 @@ function CityById() {
         </CardText>
         </CardBody>
         </Card>
-        <Link to="/"><button>Home</button></Link>
+        <Link to="/"><HomeButton/></Link>
     </div>
   ));
-}
 
-  return (
-    <div><CityById/></div>
-  )
 }
 
 export default CityDetail

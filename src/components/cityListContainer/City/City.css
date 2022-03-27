@@ -1,7 +1,7 @@
 .city {
     width: 200px;
     height: 260px;
-    margin: 5px 5px;
+    margin: 2vh 1vh;
     color: white;
     background-color: #212121 !important;
     box-shadow: 15px 15px 30px #19191948,
@@ -13,11 +13,12 @@
 a:link, a:visited, a:active {
     text-decoration:none; 
 }
-   .city:hover {
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    transform: scale(1.05);
-   }
+
+.city:hover {
+border-bottom-right-radius: 50px;
+border-top-left-radius: 50px;
+transform: scale(1.05);
+}
 
 .img{
     height: 100px;
@@ -31,6 +32,7 @@ a:link, a:visited, a:active {
     --green: #008744;
     --yellow: #ffa700;
     position: relative;
+    margin: 25vh auto;
     width: 60px;
    }
    
